@@ -12,14 +12,17 @@ For demand profiles, we assume that peak demand of the demand profile is equal t
 For each generator type, parameters are calculated as follows:
 
 Type 1 Generator
+
 	RampUpRate = RampDownRate = max ( Pmin, Pmax/2 )
 	MinUp = MinDw = 2
 	
 Type 2 Generator
+
 	RampUpRate = RampDownRate = max ( Pmin, Pmax/3 )
 	MinUp = MinDw = 3
 
 Type 3 Generator
+
 	RampUpRate = RampDownRate = max ( Pmin, Pmax/4 )
 	MinUp = MinDw = 4
 
